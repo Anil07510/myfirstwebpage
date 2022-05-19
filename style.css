@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Caveat:wght@700&family=Josefin+Sans:ital,wght@1,100;1,300&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Tapestry&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Alice', serif;
+}
+
+nav {
+    display: flex;
+    background-color: grey;
+    color: white;
+    justify-content: space-around;
+}
+
+.logoparents {
+    display: flex;
+}
+
+.logo {
+    margin-top: 6px;
+    padding: 4px 16px;
+}
+
+ul {
+    display: flex;
+    margin-top: 5px;
+    margin-left: -11px;
+}
+
+ul li {
+    padding: 8px;
+}
+
+a {
+    color: white;
+    /* background-color: rgb(195, 153, 235); */
+    padding: 6px 6px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    /* background-color:rgb(255, 255, 255); */
+    color: rgb(0, 18, 119);
+    border-radius: 10%;
+    transition: .7s;
+    cursor: pointer;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.login button:hover {
+    cursor: pointer;
+    /* background-color:rgb(224, 254, 244); */
+    color: rgb(0, 18, 119);
+}
+
+.login {
+    margin-top: 10px;
+    color: white;
+    background-color: grey;
+}
+
+.login button {
+    color: white;
+    background-color: grey;
+    border-color: grey;
+    border-radius: 12px;
+    padding: 5px 7px;
+    margin: 0 6px;
+}
+
+.line {
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    display: none;
+}
+
+/* ABOUT SECTION */
+.about {
+    height: 80vh;
+    width: 98v9w;
+    background: url('./img/bg1.jpg') no-repeat;
+    text-align: center;
+    justify-content: center;
+}
+
+.slogan {
+    margin: auto;
+    padding: 42px 52px;
+}
+
+.signup button {
+    padding: 2px 6px;
+    margin: 2px 7px;
+    background: none;
+    cursor: pointer;
+    margin-top: 34px;
+}
+
+.signup button:hover {
+    transition: .5s ease-out;
+    color: rgb(212, 0, 255);
+}
+
+/* SERVICES SECTION */
+.boxone {
+    display: flex;
+    padding: 4px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.scornner h2 {
+    text-align: center;
+    justify-content: center;
+    color: chocolate;
+    padding: 12px 0;
+}
+
+.boxpad {
+    padding: 12px 14px;
+    height: 50%;
+}
+
+.boxpad h3 p {
+    text-align: left;
+    justify-content: start;
+}
+
+#img img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.services {
+    background-color: rgb(238, 255, 150);
+}
+
+.box1 {
+    background-color: rgb(219, 159, 81);
+    height: 321px;
+    border-radius: 31px;
+    margin: 4px 8px;
+}
+
+.box2 {
+    background-color: burlywood;
+    height: 321px;
+    border-radius: 31px;
+    margin: 4px 8px;
+}
+
+.box3 {
+    background-color: rgb(219, 200, 175);
+    height: 321px;
+    border-radius: 31px;
+    margin: 4px 8px;
+}
+
+/* about cornner */
+.saboutus {
+    background-color: rgb(247, 195, 178);
+}
+
+.haboutus h2 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 7px;
+    color: hotpink;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ABOUT US CORNNER */
+.mainboxes1 {
+    background-color: rgb(151, 126, 96);
+    padding: 12px 23px;
+    margin-top: 17px;
+    border-radius: 12px;
+}
+
+.mainboxes2 {
+    background-color: rgb(151, 126, 96);
+    padding: 12px 23px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+
+.mainboxes1 img {
+    border-radius: 50%;
+    height: 100px;
+    margin: 8px;
+    margin-top: 23px;
+}
+
+.mainboxes2 img {
+    border-radius: 50%;
+    height: 100px;
+    margin: 8px;
+    margin-top: 23px;
+}
+.boxs1 {
+    background-color: rgb(213, 191, 111);
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.boxs2 {
+    background-color: rgb(115, 159, 193);
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.boxs3 {
+    background-color: rgb(164, 95, 132);
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.boxs4 {
+    background-color: rgb(163, 99, 99);
+    border-radius: 12px;
+    margin: 4px;
+}
+
+.hbox {
+    height: 221px;
+    margin: 30px 64px;
+}
+
+.hbox h5 {
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* RESPONSIVENESS START FROM HERE */
+@media only screen and (max-width:720px) {
+    .logoparents {
+        display: block;
+        display: table-header-group;
+    }
+
+    .logo img {
+
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        /* text-align: center; */
+        justify-content: center;
+        margin-left: -14px;
+        display: table-header-group;
+        display: block;
+        flex-direction: column;
+        display: none;
+        transition: 0.5s;
+
+    }
+
+    .login {
+        display: none;
+    }
+
+    .boxone {
+        display: block;
+        padding: 21PX 12PX;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .boxpad {
+        /* width:44vw; */
+        float: middle;
+        margin: 12px 53px;
+    }
+
+    .aboutus {
+        display: block;
+        text-align: center;
+    }
+    .mainboxes1{
+        margin: 10px 14px;
+    }
+    .mainboxes2{
+        margin: 10px 14px;
+    }
+    .mainboxes1 img {
+     
+        height: 80px;
+       
+    }
+    
+    .mainboxes2 img {
+        height: 80px; 
+    }
+    .line{
+display: block;
+    }
+}
